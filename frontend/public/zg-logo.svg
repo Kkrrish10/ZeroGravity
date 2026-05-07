@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 96" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Zero Gravity logo</title>
+  <desc id="logoDesc">Stylized ZG with orbit ring and the text Zero Gravity</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#000000" />
+      <stop offset="100%" stop-color="#222222" />
+    </linearGradient>
+  </defs>
+  <rect width="360" height="96" rx="22" fill="transparent" />
+  <g transform="translate(14 12)">
+    <circle cx="36" cy="36" r="34" fill="#111" />
+    <path d="M10 52c14-10 27-28 34-46" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" />
+    <path d="M46 14c18 5 30 22 30 42" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" />
+    <circle cx="56" cy="16" r="5" fill="#fff" />
+    <text x="-2" y="50" font-family="Inter, system-ui, sans-serif" font-size="46" font-weight="700" fill="#fff">ZG</text>
+  </g>
+  <g transform="translate(96 24)">
+    <text x="0" y="36" font-family="Inter, system-ui, sans-serif" font-size="30" font-weight="700" fill="#111">Zero</text>
+    <text x="0" y="68" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="600" fill="#111">Gravity</text>
+  </g>
+</svg>

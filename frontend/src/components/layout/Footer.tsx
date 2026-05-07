@@ -32,11 +32,8 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5">
           {/* Brand Section */}
           <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-neutral-900">
-                <span className="text-sm font-bold text-white">ZG</span>
-              </div>
-              <span className="font-display text-xl font-semibold tracking-tight">Zero Gravity</span>
+            <Link to="/" className="flex items-center space-x-3">
+              <img src="/zg-logo.svg" alt="Zero Gravity logo" className="h-10 w-auto" />
             </Link>
             <p className="mt-4 max-w-xs text-sm text-neutral-600">
               Student-focused fashion that's stylish, affordable, and college-compliant. Dress your best without breaking the bank.

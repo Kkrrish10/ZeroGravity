@@ -27,11 +27,8 @@ export default function Navbar() {
       <nav className="container-custom">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-neutral-900">
-              <span className="text-sm font-bold text-white">ZG</span>
-            </div>
-            <span className="font-display text-xl font-semibold tracking-tight">Zero Gravity</span>
+          <Link to="/" className="flex items-center space-x-3">
+            <img src="/zg-logo.svg" alt="Zero Gravity logo" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
