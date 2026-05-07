@@ -18,7 +18,7 @@ export default function Home() {
     {
       icon: Truck,
       title: 'Free Shipping',
-      description: 'On orders over $50',
+      description: 'On orders over ₹1000',
     },
     {
       icon: RefreshCw,

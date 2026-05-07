@@ -20,7 +20,7 @@ export default function Shipping() {
             </div>
             <div>
               <h2 className="text-xl font-semibold text-neutral-900">Free shipping</h2>
-              <p className="mt-2 text-sm">Enjoy free standard shipping on orders over $50.</p>
+              <p className="mt-2 text-sm">Enjoy free standard shipping on orders over ₹1000.</p>
             </div>
             <div>
               <h2 className="text-xl font-semibold text-neutral-900">Order tracking</h2>
